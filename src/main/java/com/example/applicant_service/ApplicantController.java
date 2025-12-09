@@ -9,7 +9,8 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/applicants")
-@CrossOrigin("http://localhost:5173")
+
+@CrossOrigin("http://localhost:3000")
 public class ApplicantController {
     private final ApplicantService service;
     public ApplicantController(ApplicantService service) {

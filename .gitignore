@@ -30,9 +30,9 @@ build/
 
 ### VS Code ###
 .vscode/
-HELP.md
 COMPLETE_IMPLEMENTATION_GUIDE.md
 IMPLEMENTATION_SUMMARY.md
 .env
 .gitattributes
-
+.DS_Store
+src/**/.DS_Store

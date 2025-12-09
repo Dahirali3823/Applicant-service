@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/loans")
+@CrossOrigin("http://localhost:5173")
 public class LoanController{
     private final ApplicantService service;
     private final LoanDecisionService loanDecisionService;
